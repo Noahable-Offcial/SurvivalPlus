@@ -2,6 +2,8 @@ name: SurvivalPlus
 version: 1.0
 main: com.survivalplus.SurvivalPlus
 api-version: '1.21'
+author: Noah
+description: Complete SMP plugin
 
 softdepend:
   - Geyser-Spigot
@@ -9,4 +11,11 @@ softdepend:
 
 commands:
   help:
-    description: SurvivalPlus help menu
+    description: Opens SurvivalPlus help menu
+    usage: /help
+    aliases:
+      - survivalplus
+
+permissions:
+  survivalplus.admin:
+    default: op
