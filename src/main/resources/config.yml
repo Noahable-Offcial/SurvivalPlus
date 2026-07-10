@@ -1,0 +1,7 @@
+plugin:
+  name: SurvivalPlus
+
+settings:
+  popups: true
+  teleport-countdown: true
+  spawn-builder: true
